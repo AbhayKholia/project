@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.gr{
+    height: 50px;
+    width: 100%;;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    position: fixed;
+    margin-top: 0px;
+    color: grey;
+    margin-left: 100px;
+}
+
+.container>div{
+    display: flex;
+
+    gap: 2px;
+}
+
+.ssense{
+    /* margin-top: 20px; */
+    font-size: 12px;
+    font-family: sans-serif;
+    color: black;
+    
+
+} 
+p{
+ margin-right: 50px;
+}
+
+a:hover{
+    text-decoration:underline;
+}
